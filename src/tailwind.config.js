@@ -11,20 +11,7 @@ length of this file. It's really just a big JavaScript object and
 we've done our very best to explain each section.
 
 View the full documentation at https://tailwindcss.com.
-
-
-|-------------------------------------------------------------------------------
-| The default config
-|-------------------------------------------------------------------------------
-|
-| This variable contains the default Tailwind config. You don't have
-| to use it, but it can sometimes be helpful to have available. For
-| example, you may choose to merge your custom configuration
-| values with some of the Tailwind defaults.
-|
 */
-
-const defaultConfig = require("tailwindcss/defaultConfig")();
 
 module.exports = {
   /*
