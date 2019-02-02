@@ -1,0 +1,7 @@
+{
+  "name": "tailwindcss-plugin-safe-area",
+  "version": "1.0.0",
+  "description": "Tailwindcss plugin to apply safe areas to position, margin, or padding",
+  "author": "Justin Anastos <justin.anastos@gmail.com>",
+  "license": "MIT"
+}
