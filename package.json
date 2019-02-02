@@ -3,5 +3,18 @@
   "version": "1.0.0",
   "description": "Tailwindcss plugin to apply safe areas to position, margin, or padding",
   "author": "Justin Anastos <justin.anastos@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-eslint-comments": "^3.0.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "postcss": "^7.0.14",
+    "postcss-cli": "^6.1.1",
+    "prettier": "^1.16.3",
+    "tailwindcss": "^0.7.4"
+  }
 }
