@@ -33,8 +33,15 @@ module.exports = {
   |
   */
 
+  leading: {
+    none: 1,
+    // tight: 1.25,
+    // 'normal': 1.5,
+    // 'loose': 2,
+  },
+
   screens: {
-    sm: "576px"
+    sm: "576px",
     // md: "768px",
     // lg: "992px",
     // xl: "1200px"
@@ -71,7 +78,7 @@ module.exports = {
     "16": "4rem",
     "20": "5rem",
     "24": "6rem",
-    "32": "8rem"
+    "32": "8rem",
   },
 
   /*
@@ -93,7 +100,7 @@ module.exports = {
   margin: {
     auto: "auto",
     "0": "0",
-    "1": "0.25rem"
+    "1": "0.25rem",
   },
 
   /*
@@ -127,7 +134,7 @@ module.exports = {
     "16": "4rem",
     "20": "5rem",
     "24": "6rem",
-    "32": "8rem"
+    "32": "8rem",
   },
 
   /*
@@ -169,9 +176,9 @@ module.exports = {
     fonts: false,
     fontWeights: false,
     height: false,
-    leading: false,
+    leading: ["responsive", "safe"],
     lists: false,
-    margin: ["responsive"],
+    margin: false,
     maxHeight: false,
     maxWidth: false,
     minHeight: false,
@@ -200,7 +207,7 @@ module.exports = {
     visibility: false,
     whitespace: false,
     width: false,
-    zIndex: false
+    zIndex: false,
   },
 
   /*
@@ -221,7 +228,8 @@ module.exports = {
     require("tailwindcss/plugins/container")({
       // center: true,
       // padding: '1rem',
-    })
+    }),
+    require("../index"),
   ],
 
   /*
@@ -237,6 +245,6 @@ module.exports = {
   options: {
     prefix: "",
     important: false,
-    separator: ":"
-  }
-};
+    separator: ":",
+  },
+}

@@ -4,6 +4,9 @@
   "description": "Tailwindcss plugin to apply safe areas to position, margin, or padding",
   "author": "Justin Anastos <justin.anastos@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "postcss --config src/postcss.config.js src/postcss.css"
+  },
   "devDependencies": {
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
